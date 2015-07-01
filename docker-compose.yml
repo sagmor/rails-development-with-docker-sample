@@ -1,0 +1,14 @@
+app:
+  build: .
+  command: foreman start
+  volumes:
+    - .:/app/src
+  ports:
+    - "3001:3000"
+  links:
+  - postgres
+  - redis
+postgres:
+  image: postgres
+redis:
+  image: redis
