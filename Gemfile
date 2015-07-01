@@ -25,6 +25,7 @@ gem 'reform'
 
 # Services
 gem 'foreman'
+gem 'puma'
 gem 'sidekiq'
 
 group :development, :test do

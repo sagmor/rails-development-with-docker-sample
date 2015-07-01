@@ -2,9 +2,9 @@ app:
   build: .
   command: foreman start
   volumes:
-    - .:/app/src
+    - .:/app
   ports:
-    - "3001:3000"
+    - "3000:3000"
   links:
   - postgres
   - redis

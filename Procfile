@@ -1,1 +1,1 @@
-web: rails server
+web: rails server Puma --binding=0.0.0.0
